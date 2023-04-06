@@ -1,0 +1,132 @@
+#root {
+    max-width: 1440px;
+    margin: 0;
+}
+
+
+/*Nav*/
+
+.sidebar-menu {
+    background-color: #131313;
+    width: 109px;
+    height: 2492px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.sidebar-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+}
+
+
+/*Hero*/
+
+.hero-container {
+    background-image: url(./assets/fallback-img.png);
+    width: 1331px;
+    height: 544px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 26px 155px;
+    width: fit-content;
+    gap: 24px;
+}
+
+.main-title {
+    /* Headline - Desktop 80px */
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 321px;
+    height: 120px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.film-info {
+    /* Small Text - Desktop 12px */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 224px;
+    height: 24px;
+    line-height: 24px;
+    padding-top: 4px;
+    /* identical to box height, or 200% */
+    color: #747474;
+}
+
+.film-about {
+    /* Paragraph - Desktop 15px */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    width: 386px;
+    height: 78px;
+    padding-top: 20px;
+    /* or 173% */
+    color: #FFFFFF;
+}
+
+.film-credits {
+    /* film-credits 
+    position: absolute;
+    
+    left: calc(50% - 278px/2 - 480.5px);
+    top: 296px;*/
+    /* Small Text - Desktop 12px */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    width: 278px;
+    height: 48px;
+    /* or 200% */
+    color: #FFFFFF;
+}
+
+.credits-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.btn-watch button {
+    /* Paragraph - Desktop 15px */
+    width: 155.5px;
+    height: 43.36px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FF4E4E;
+    background: #080808;
+    border: 0.954145px solid #FF4E4E;
+    border-radius: 40.0741px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
