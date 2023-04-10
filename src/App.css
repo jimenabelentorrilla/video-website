@@ -1,6 +1,7 @@
 #root {
     max-width: 1440px;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -33,12 +34,13 @@
     height: 544px;
     position: relative;
     z-index: 1;
+    margin-left: 109px;
 }
 
 .card-flex {
     display: flex;
     flex-direction: column;
-    padding: 26px 155px;
+    padding: 26px 46px;
     width: fit-content;
     gap: 24px;
 }
@@ -128,5 +130,121 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
+    cursor: pointer;
+}
+
+
+/*Container films*/
+
+.container-films {
+    height: 780px;
+    margin-left: 109px;
+    background-color: #232323;
+}
+
+.container-films h2 {
+    /* Section Title - Desktop 20px */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+    color: #FFFFFF;
+    padding: 81px 0px 0px 49px;
+    width: 1232px;
+}
+
+
+/*ImageGrid*/
+
+.image-grid-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding: 16px 49px;
+}
+
+.img-w {
+    width: 190px;
+    height: 280px;
+    cursor: pointer;
+}
+
+
+/*Footer*/
+
+.container-footer {
+    height: 389px;
+    background: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 25px;
+    /* or 63% */
+    color: #FFFFFF;
+    padding: 83px 0 22px 158px;
+    margin: 0;
+}
+
+.footer-text p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+    color: #FFFFFF;
+    width: 562px;
+    height: 72px;
+    padding: 0px 0px 0px 158px;
+    opacity: 0.8;
+}
+
+.footer-img {
+    width: 500px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    padding: 46px 0 0 158px;
+    gap: 18px;
+    width: 351px;
+}
+
+.form-control {
+    background: #080808;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+    color: #FFFFFF;
+    border: none;
+}
+
+.footer-form button {
+    border: 0.772727px solid #FFFFFF;
+    border-radius: 32.4545px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 97px;
+    height: 30px;
     cursor: pointer;
 }
