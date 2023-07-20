@@ -31,11 +31,11 @@
 
 .hero-container {
     background-image: url(./assets/fallback-img.png);
-    width: 1331px;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 544px;
     position: relative;
     z-index: 1;
-    margin-left: 109px;
 }
 
 .card-flex {
@@ -140,35 +140,19 @@
 
 
 /*Container films*/
-
-.container-films {
-    margin-left: 109px;
-    background-color: #232323;
+.container-films{
+    background: #232323;
+    padding: 81px 158px;
 }
-
-.container-films h2 {
-    /* Section Title - Desktop 20px */
+.container-films h2{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-    /* or 110% */
     color: #FFFFFF;
-    padding: 81px 0px 0px 49px;
-    width: 1232px;
+    height: 58px;
 }
-
-
-/*ImageGrid*/
-
-.image-grid-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    padding: 16px 49px;
-}
-
 .img-w {
     width: 190px;
     height: 280px;
@@ -177,6 +161,11 @@
 }
 .img-w:hover{
     transform: scale(1.05);
+}
+.sarasa{
+    display: flex;
+    flex-wrap: wrap;
+    gap:18.5px;
 }
 
 

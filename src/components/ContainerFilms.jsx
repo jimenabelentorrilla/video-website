@@ -1,25 +1,22 @@
 import React from 'react';
+import Data from "./data"; 
 
-const ContainerFilms = ({ title, images }) => {
+const ContainerFilms = () => {
   return (
-    <div className='container-films'>
-      <h2>{title}</h2>
-      <div>
-        {images.map((image, index) => {
-          return (
-            <div className='image-grid-flex' key={index}>
-              {image.map((img, index) => {
-                return (
-                  <div key={index}>
-                    <img className="img-w" src={img} alt="movie" />
-                  </div>
-                );
-              })}
-            </div>
-          );
-        })}
+    <>
+    <div className="container-films">
+      <h2>Recently Added Films</h2>
+      <div className='sarasa' >
+        {Data.map((movie, index) => (
+          <div key={index}>
+            <img className='img-w ' src={movie.img} />
+          </div>
+          
+        ))}
       </div>
     </div>
+      
+    </>
   );
 }
 
