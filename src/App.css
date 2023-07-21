@@ -29,64 +29,43 @@
 
 /*Hero*/
 
-.hero-container {
-    background-image: url(./assets/fallback-img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 544px;
-    position: relative;
-    z-index: 1;
-}
-
 .card-flex {
     display: flex;
     flex-direction: column;
-    padding: 26px 46px;
-    width: fit-content;
     gap: 24px;
 }
 
 .main-title {
-    /* Headline - Desktop 80px */
     font-family: 'Anton';
-    font-style: normal;
     font-weight: 400;
     font-size: 80px;
     line-height: 120px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
-    width: 321px;
     height: 120px;
     text-transform: uppercase;
     margin: 0;
 }
 
 .film-info {
-    /* Small Text - Desktop 12px */
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     width: 224px;
     height: 24px;
     line-height: 24px;
     padding-top: 4px;
-    /* identical to box height, or 200% */
     color: #747474;
 }
 
 .film-about {
-    /* Paragraph - Desktop 15px */
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 26px;
-    width: 386px;
     height: 78px;
     padding-top: 20px;
-    /* or 173% */
     color: #FFFFFF;
 }
 
@@ -102,7 +81,6 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
-    width: 278px;
     height: 48px;
     /* or 200% */
     color: #FFFFFF;
@@ -115,16 +93,14 @@
 }
 
 .btn-watch button {
-    /* Paragraph - Desktop 15px */
     width: 155.5px;
     height: 43.36px;
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 26px;
     color: #FF4E4E;
-    background: #080808;
+    background:  #08080897;
     border: 0.954145px solid #FF4E4E;
     border-radius: 40.0741px;
     display: flex;
@@ -136,17 +112,20 @@
 }
 .btn-watch button:hover{
     transform: scale(1.05);
+    background: #080808;
 }
-
 
 /*Container films*/
 .container-films{
     background: #232323;
-    padding: 81px 158px;
+    padding: 81px 109px;
+    display: flex;
+    flex-direction: column;
+    width: 1550px;
+    align-items: center;
 }
 .container-films h2{
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
@@ -166,8 +145,8 @@
     display: flex;
     flex-wrap: wrap;
     gap:18.5px;
+    width: 1080px;
 }
-
 
 /*Footer*/
 
@@ -185,7 +164,6 @@
     font-weight: 800;
     font-size: 40px;
     line-height: 25px;
-    /* or 63% */
     color: #FFFFFF;
     padding: 83px 0 22px 158px;
     margin: 0;
@@ -197,7 +175,6 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 26px;
-    /* or 173% */
     color: #FFFFFF;
     width: 562px;
     height: 72px;
@@ -220,11 +197,9 @@
 .form-control {
     background: #080808;
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 26px;
-    /* or 173% */
     color: #FFFFFF;
     border: none;
 }
@@ -233,15 +208,17 @@
     border: 0.772727px solid #FFFFFF;
     border-radius: 32.4545px;
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 157% */
     text-align: center;
     color: #FFFFFF;
     background-color: transparent;
     width: 97px;
     height: 30px;
     cursor: pointer;
+}
+.carousel-caption{
+    text-align: start !important; 
+    bottom: 20.25rem !important;
 }

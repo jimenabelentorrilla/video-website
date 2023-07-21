@@ -3,7 +3,7 @@ import Logo from "../assets/Logo.png";
 import Search from "../assets/search-icon.png";
 import Movie from "../assets/movie-icon.png";
 import Fav from "../assets/fav-icon.png";
-import User from "../assets/movie-icon.png";
+import User from "../assets/user-icon.png";
 
 const Sidebar = () => {
   return (
