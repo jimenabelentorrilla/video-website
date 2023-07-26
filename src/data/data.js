@@ -58,17 +58,36 @@ import Bn12 from "../assets/bn-film12.jpg";
 import Bn13 from "../assets/bn-film13.jpg";
 import Bn14 from "../assets/bn-film14.jpg";
 import Bn15 from "../assets/bn-film15.jpg";
-
-
-
-
-
-
-
-
-
-
-
+import Bn16 from "../assets/bn-film16.jpg";
+import Bn17 from "../assets/bn-film17.jpg";
+import Bn18 from "../assets/bn-film18.jpg";
+import Bn19 from "../assets/bn-film19.jpg";
+import Bn20 from "../assets/bn-film20.jpg";
+import Bn21 from "../assets/bn-film21.jpg";
+import Bn22 from "../assets/bn-film22.jpg";
+import Bn23 from "../assets/bn-film23.jpg";
+import Bn24 from "../assets/bn-film24.jpg";
+import Bn25 from "../assets/bn-film25.jpg";
+import Bn26 from "../assets/bn-film26.jpg";
+import Bn27 from "../assets/bn-film27.jpg";
+import Bn28 from "../assets/bn-film28.jpg";
+import Bn29 from "../assets/bn-film29.jpg";
+import Bn30 from "../assets/bn-film30.jpg";
+import Bn31 from "../assets/bn-film31.jpg";
+import Bn32 from "../assets/bn-film32.jpg";
+import Bn33 from "../assets/bn-film33.jpg";
+import Bn34 from "../assets/bn-film34.jpg";
+import Bn35 from "../assets/bn-film35.jpg";
+import Bn36 from "../assets/bn-film36.jpg";
+import Bn37 from "../assets/bn-film37.jpg";
+import Bn38 from "../assets/bn-film38.jpg";
+import Bn39 from "../assets/bn-film39.jpg";
+import Bn40 from "../assets/bn-film40.jpg";
+import Bn41 from "../assets/bn-film41.jpg";
+import Bn42 from "../assets/bn-film42.jpg";
+import Bn43 from "../assets/bn-film43.jpg";
+import Bn44 from "../assets/bn-film44.jpg";
+import Bn45 from "../assets/bn-film45.jpg";
 
 const movies = [
   {
@@ -227,7 +246,9 @@ const movies = [
     genero: 'Screwball Comedy',
     year: 1938,
     img: Image16,
+    banner: Bn16,
     cast: 'Cary Grant, Katharine Hepburn, Charles Ruggles',
+    text: "David es un paleontólogo tímido que está apunto de acabar de reconstruir el esqueleto de un brontosaurio, sólo que le falta una clavícula intercostal y también está a punto de casarse. Un día conoce a Susan, una joven que se hará lo posible para que no culmine ninguno de sus proyectos."
   },
   {
     title: 'Le Cercle Rouge',
@@ -235,7 +256,9 @@ const movies = [
     genero: 'Policial',
     year: 1970,
     img: Image17,
+    banner: Bn17,
     cast: 'Alain Delon, André Bourvil, Gian Maria Volonté',
+    text: "Mientras Corey, un joven preso, es liberado tras cumplir condena en una carcel francesa, Vogel, un criminal custodiado por el temible comisario Mattei, escapa del tren en que viajaban. Ambos formarán un equipo para realizar un meticuloso robo de joyas."
   },
   {
     title: 'Bring Me The Head Of Alfredo Garcia',
@@ -243,7 +266,9 @@ const movies = [
     genero: 'Accion',
     year: 1974,
     img: Image18,
+    banner: Bn18,
     cast: 'Warren Oates, Isela Vega, Robert Webber',
+    text: "La hija adolescente de un rico hacendado mexicano ha quedado embarazada. El responsable es, al parecer, Alfredo García, un antiguo colaborador y amigo de la familia, por cuya cabeza se ofrece la recompensa de un millón de dólares."
   },
   {
     title: 'Sorcerer',
@@ -251,7 +276,9 @@ const movies = [
     genero: 'Aventura/Terror/Drama',
     year: 1977,
     img: Image19,
+    banner: Bn19,
     cast: 'Roy Scheider, Bruno Cremer, Francisco Rabal',
+    text: "El destino lleva a un grupo de marginados de diferente origen a trabajar en una operación petrolera sudamericana. Un incendio incontrolable, presenta la opción de ganar dinero suficiente para salir, si aceptan transportar cajas de nitroglicerina inestable por una selva difícil en camiones antiguos."
   },
   {
     title: 'Volver',
@@ -259,7 +286,9 @@ const movies = [
     genero: 'Comedia',
     year: 2006,
     img: Image20,
+    banner: Bn20,
     cast: 'Penélope Cruz, Carmen Maura, Lola Dueñas',
+    text: "Volver es un melodrama intergeneracional sobre la feminidad y la resiliencia españolas, protagonizado por Penélope Cruz junto a un elenco de actores habituales de Almodóvar, como Carmen Maura y Lola Dueñas. Explora cómo nos persiguen los fantasmas del pasado y qué podemos hacer para expiarnos."
   },
   {
     title: 'Blood And Black Lace',
@@ -267,7 +296,9 @@ const movies = [
     genero: 'Giallo',
     year: 1964,
     img: Image21,
+    banner: Bn21,
     cast: 'Cameron Mitchell, Eva Bartok, Thomas Reiner',
+    text: "Isabella, modelo de una casa de modas, es asesinada por un enmascarado. Inicia una investigación y se halla su diario, con detalles sobre los vicios del lugar y una compleja red de chantajes y secretos. El pánico se extiende cuando el asesino busca el diario y las modelos son asesinadas una por una."
   },
   {
     title: 'Le Samourai',
@@ -275,7 +306,9 @@ const movies = [
     genero: 'Policial',
     year: 1967,
     img: Image22,
+    banner: Bn22,
     cast: 'Alain Delon, Nathalie Delon, François Périer',
+    text: "Un asesino a sueldo solitario y lacónico que vive bajo el código de honor del estricto Bushidō japonés, es contratado para eliminar al dueño de un Night-Club."
   },
   {
     title: 'Cruising',
@@ -283,7 +316,9 @@ const movies = [
     genero: 'Policia/Terror',
     year: 1980,
     img: Image23,
+    banner: Bn23,
     cast: 'Al Pacino, Karen Allen, Paul Sorvino',
+    text: "A serial killer brutally slays and dismembers several gay men in New York’s S&M and leather districts. The young police officer Steve Burns is sent undercover onto the streets as decoy for the murderer."
   },
   {
     title: 'In The Mouth Of Madness',
@@ -291,7 +326,9 @@ const movies = [
     genero: 'Terror',
     year: 1994,
     img: Image24,
+    banner: Bn24,
     cast: 'Sam Neill, Julie Carmen, Jürgen Prochnow',
+    text: "A best-selling author’s newest novel is literally driving readers insane. When the author inexplicably vanishes, a special investigator hired to track him down crosses the barrier between fact and fiction and enters a terrifying world from which there is no escape."
   },
   {
     title: 'Possessor',
@@ -299,7 +336,9 @@ const movies = [
     genero: 'Body Horror',
     year: 2020,
     img: Image25,
+    banner: Bn25,
     cast: 'Andrea Riseborough, Christopher Abbott, Jennifer Jason Leigh',
+    text: "An agent works for a secretive organization that uses brain-implant technology to inhabit other people’s bodies – ultimately driving them to commit assassinations for high-paying clients."
   },
   {
     title: 'To Catch A Thief',
@@ -307,7 +346,9 @@ const movies = [
     genero: 'Comedia / Policial',
     year: 1955,
     img: Image26,
-    cast: 's',
+    banner: Bn26,
+    cast: 'Cary Grant, Grace Kelly, Jessie Royce Landis',
+    text: "Cuando se levantan las sospechas de que un antiguo ladrón de joyas ha regresado a su antigua ocupación, él se encargará de revelar al verdadero culpable."
   },
   {
     title: 'The French Connection',
@@ -315,7 +356,9 @@ const movies = [
     genero: 'Policial',
     year: 1971,
     img: Image27,
-    cast: 's',
+    banner: Bn27,
+    cast: 'Gene Hackman, Fernando Rey, Roy Scheider',
+    text: "Siguiendo la pista de una red de tráfico de drogas, dos policías neoyorquinos intervienen la línea telefónica de una confitería y rastrean a su dueño. Poco después parecen tener la respuesta al crimen cuando encuentran a Nicoly y Charnier, dos franceses recién llegados a EUA."
   },
   {
     title: 'Streets Of Fire',
@@ -323,7 +366,9 @@ const movies = [
     genero: 'Acción',
     year: 1984,
     img: Image28,
-    cast: 's',
+    banner: Bn28,
+    cast: 'MICHAEL PARÉ, DIANE LANE, RICK MORANIS',
+    text: "Tom Cody is a former soldier hired by his ex-girlfriend’s manager to rescue her after she’s been kidnapped by a biker gang."
   },
   {
     title: 'Hard Boiled',
@@ -331,7 +376,9 @@ const movies = [
     genero: 'Accion',
     year: 1992,
     img: Image29,
-    cast: 's',
+    banner: Bn29,
+    cast: 'CHOW YUN-FAT, TONY LEUNG CHIU WAI, TERESA MO',
+    text: "Yun-Fat es el policía encargado de detener una operación de contrabando de armas y encontrar al asesino de su compañero. El director John Woo continúa con su estilo violento pero poético en este clásico del cine de acción."
   },
   {
     title: 'Snake Eyes',
@@ -339,7 +386,9 @@ const movies = [
     genero: 'Policial',
     year: 1998,
     img: Image30,
-    cast: 's',
+    banner: Bn30,
+    cast: 'NICOLAS CAGE, GARY SINISE, JOHN HEARD',
+    text: "A shady police detective allows little to come between him and his comfortable lifestyle. However, when the Secretary of Defense is killed during an important boxing match, he finds himself in the middle of a shocking murder conspiracy."
   },
   {
     title: 'Assault on Precinct 13',
@@ -347,7 +396,9 @@ const movies = [
     genero: 'Acción',
     year: 1976,
     img: Image31,
+    banner: Bn31,
     cast: 'Austin Stoker, Darwin Joston, Laurie Zimmer',
+    text: "An LA gang’s revenge-fuelled killing spree leads them to a half-abandoned police station in the throes of closing down. Under siege with power and phone lines cut, a lone cop and his skeleton staff recruit a condemned killer from the cells in a desperate battle to survive the night."
   },
   {
     title: 'Phenomena',
@@ -355,7 +406,9 @@ const movies = [
     genero: 'Terror',
     year: 1984,
     img: Image32,
+    banner: Bn32,
     cast: 'Jennifer Connelly, Donald Pleasence, Daria Nicolodi',
+    text: "Una niña, con una habilidad increíble para comunicarse con insectos, es transferida a un exclusivo internado suizo, donde su inusual habilidad podría ayudar a resolver una serie de asesinatos."
   },
   {
     title: 'Carne Trémula',
@@ -363,7 +416,9 @@ const movies = [
     genero: 'Romance/Comedia',
     year: 1997,
     img: Image33,
+    banner: Bn33,
     cast: 'Javier Bardem, Francesca Neri, Liberto Rabal',
+    text: "Víctor se enamora de Elena, pero ella no comparte sus sentimientos. Sin embargo, sí siente algo por David, un policía que llega a detener una discusión entre ella y Víctor. Sin embargo, ese encuentro da un giro inesperado que lleva a estos personajes por un camino oscuro y turbulento."
   },
   {
     title: 'The Edge Of Seventeen',
@@ -371,7 +426,9 @@ const movies = [
     genero: 'Coming Of Age',
     year: 2016,
     img: Image34,
+    banner: Bn34,
     cast: 'Hailee Steinfeld, Haley Lu Richardson, Blake Jenner',
+    text: "Two high school girls are best friends until one dates the other’s older brother, who is totally his sister’s nemesis."
   },
   {
     title: 'Bliss',
@@ -379,7 +436,9 @@ const movies = [
     genero: 'Terror',
     year: 2019,
     img: Image35,
+    banner: Bn35,
     cast: 'Dora Madison, Tru Collins, Rhys Wakefield',
+    text: "In need of creative inspiration, a professionally stagnant and hard-partying Los Angeles artist recklessly indulges in a series of drug binges. As the narcotics fly out of control, so does her newfound and inexplicable, yet unquenchable, craving for blood."
   },
   {
     title: 'The Parallax View',
@@ -387,7 +446,9 @@ const movies = [
     genero: 'Drama Político',
     year: 1974,
     img: Image36,
+    banner: Bn36,
     cast: 'Warren Beatty, Paula Prentiss, William Daniels',
+    text: "An ambitious reporter gets in way-over-his-head trouble while investigating a senator’s assassination which leads to a vast conspiracy involving a multinational corporation behind every event in the worlds headlines."
   },
   {
     title: 'Hardcore',
@@ -395,7 +456,9 @@ const movies = [
     genero: 'Drama',
     year: 1979,
     img: Image37,
+    banner: Bn37,
     cast: 'George C. Scott, Peter Boyle, Season Hubley',
+    text: "A Midwestern businessman is simmering with rage against the world when his daughter runs away to California to become a porn performer. His journey after her takes him into the seediest circles of the sex trade, exposing him to a series of shocks to his conservatism."
   },
   {
     title: 'True Lies',
@@ -403,7 +466,9 @@ const movies = [
     genero: 'Acción/Romance/Comedia',
     year: 1994,
     img: Image38,
+    banner: Bn38,
     cast: 'Arnold Schwarzenegger, Jamie Lee Curtis, Tom Arnold',
+    text: "When a secret agent learns of his wife’s extra-marital affair, he pursues her and uses his intelligence resources in a job he kept secret from her."
   },
   {
     title: 'A History Of Violence',
@@ -411,7 +476,9 @@ const movies = [
     genero: 'Acción/Drama',
     year: 2005,
     img: Image39,
+    banner: Bn39,
     cast: 'Viggo Mortensen, Maria Bello, Ed Harris',
+    text: "Tom Stall lleva una vida tranquila con su familia en un pequeño pueblo en Indiana. Pero un día. tras evitar un intento de robo en su restaurante es tomado por héroe atrayendo la atención de los medios de comunicación. Poco después recibe una visita de alguien que afirma conocerle bien."
   },
   {
     title: 'Crawl',
@@ -419,7 +486,9 @@ const movies = [
     genero: 'Terror',
     year: 2019,
     img: Image40,
+    banner: Bn40,
     cast: 'Kaya Scodelario, Barry Pepper, Ross Anderson',
+    text: "A young woman, while attempting to save her father during a Catagory 5 hurricane, finds herself trapped in a flooding house and must fight for her life against alligators."
   },
   {
     title: 'Seconds',
@@ -427,7 +496,9 @@ const movies = [
     genero: 'Ciencia Ficción/Drama',
     year: 1966,
     img: Image41,
+    banner: Bn41,
     cast: 'Rock Hudson, Salome Jens, John Randolph',
+    text: "Un hombre de negocios vive con su esposa en los suburbios de Nueva York. Un día, se encuentra con un viejo amigo al que creía muerto. Su amigo lo lleva a “La Compañía”, un negocio secreto que por cierto precio, da cirugía plástica y una nueva vida a quienes lo necesitan."
   },
   {
     title: 'Possession',
@@ -435,7 +506,9 @@ const movies = [
     genero: 'Terror/Drama',
     year: 1981,
     img: Image42,
+    banner: Bn42,
     cast: 'Isabelle Adjani, Sam Neill, Margit Carstensen',
+    text: "Cuando Marc regresa de viaje encuentra a su esposa Anna cambiada, muy nerviosa y perturbada. Ésta lo acaba abandonando y le confiesa que tiene una aventura. Marc cae en una terrible depresión que lo lleva al borde de la locura y lo impulsa a contratar un detective."
   },
   {
     title: 'The Beyond',
@@ -443,7 +516,9 @@ const movies = [
     genero: 'Terror',
     year: 1981,
     img: Image43,
+    banner: Bn43,
     cast: 'Catriona MacColl, David Warbeck, Cinzia Monreale',
+    text: "A young woman inherits an old hotel in Louisiana where, following a series of supernatural “accidents”, she learns that the building was built over one of the entrances to Hell."
   },
   {
     title: 'After Hours',
@@ -451,7 +526,9 @@ const movies = [
     genero: 'Comedia',
     year: 1985,
     img: Image44,
+    banner: Bn44,
     cast: 'Griffin Dunne, Rosanna Arquette, Verna Bloom',
+    text: "Al finalizar su jornada laboral, un solitario empleado de una compañía de informática, se ve envuelto en una serie de extrañas circunstancias que le llevan a uno de los peores barrios de Nueva York. Allí, vivirá una interminable y alocada noche."
   },
   {
     title: 'Memories Of Murder',
@@ -459,7 +536,9 @@ const movies = [
     genero: 'Policial',
     year: 2003,
     img: Image45,
+    banner: Bn45,
     cast: 'Song Kang-ho, Kim Sang-kyung, Kim Roi-ha',
+    text: "Memories of Murder tells the harrowing true story of the hunt for a sadistic serial rapist and murderer terrorizing a small province in 1980s South Korea. Three increasingly desperate detectives attempt to decipher the violent mind of a killer in a futile effort to solve the case."
   }
 ];
 
