@@ -7,16 +7,19 @@ const ContainerFilms = () => {
     <>
     <div className="container-films">
       <h2>Agregados recientemente</h2>
-      <div className='sarasa' >
-        {Data.map((movie, index) => (
-          <Link to={movie.title}>
-            <div key={index}>
-              <img className='img-w ' src={movie.img} />
-            </div>
-          </Link>
-        ))}
-      </div>
-      </div>
+        <div className='sarasa' >
+          {Data.map((movie, index) => (
+            <Link to={movie.title}>
+              <div key={index}>
+                <img className='img-w ' src={movie.img} />
+              </div>
+              <div>
+                <p>{movie.title}</p>
+                </div>
+            </Link>
+          ))}
+        </div>
+    </div>
     </>
   );
 }
