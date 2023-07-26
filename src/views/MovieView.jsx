@@ -37,7 +37,7 @@ function MovieView( { movie } ) {
       </Navbar>
     </div>
     <Container fluid>
-      <Row>
+      <Row className='bg-body-tertiary'>
         <Col>
           <div className='row-banner'>
       <div className='MovieView'>

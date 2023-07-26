@@ -50,6 +50,12 @@ import Bn04 from "../assets/bn-film04.jpg";
 import Bn05 from "../assets/bn-film05.jpg";
 import Bn06 from "../assets/bn-film06.jpg";
 import Bn07 from "../assets/bn-film07.jpg";
+import Bn08 from "../assets/bn-film08.jpg";
+import Bn09 from "../assets/bn-film09.jpg";
+import Bn10 from "../assets/bn-film10.jpg";
+
+
+
 
 
 
@@ -131,7 +137,9 @@ const movies = [
     genero: 'Coming Of Age',
     year: 2008,
     img: Image8,
+    banner: Bn08,
     cast: 'Daniel Hendler, Jazmín Stuart, Walter Jakob',
+    text: "Luciano Gauna works at children’s birthday parties while eternally writing his first screenplay. He lives at his friend’s Manuel’s apartment in Buenos Aires. When Manuel returns from Spain with his beautiful girlfriend Sofia, complications ensue…"
   },
   {
     title: 'Like Father Like Son',
@@ -139,7 +147,9 @@ const movies = [
     genero: 'Drama',
     year: 2013,
     img: Image9,
+    banner: Bn09,
     cast: 'Masaharu Fukuyama, Machiko Ono, Yōko Maki',
+    text: "One day, Ryota and his wife get an unexpected phone call from the hospital. Keita, the six-year-old boy they have raised, is not their son. The news is hard to take for stern businessman Ryota. He meets his actual child, Ryusei, who has been brought up in a poorer, but more loving environment."
   },
   {
     title: 'Under The Silver Lake',
@@ -147,7 +157,9 @@ const movies = [
     genero: 'Neo Noir',
     year: 2018,
     img: Image10,
+    banner: Bn10,
     cast: 'Andrew Garfield, Riley Keough, Topher Grace',
+    text: "Sam se despierta una mañana y sale en busca de su vecina Sarah, que ha desaparecido sin dejar rastro. Es entonces cuando se embarca en una búsqueda por toda la ciudad para encontrarla. Una delirante obra neo-noir sobre las profundidades más turbias del escándalo y la conspiración en Hollywood Hills."
   },
   {
     title: 'Targets',
