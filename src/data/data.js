@@ -53,6 +53,16 @@ import Bn07 from "../assets/bn-film07.jpg";
 import Bn08 from "../assets/bn-film08.jpg";
 import Bn09 from "../assets/bn-film09.jpg";
 import Bn10 from "../assets/bn-film10.jpg";
+import Bn11 from "../assets/bn-film11.jpg";
+import Bn12 from "../assets/bn-film12.jpg";
+import Bn13 from "../assets/bn-film13.jpg";
+import Bn14 from "../assets/bn-film14.jpg";
+import Bn15 from "../assets/bn-film15.jpg";
+
+
+
+
+
 
 
 
@@ -167,7 +177,9 @@ const movies = [
     genero: 'Terror',
     year: 1968,
     img: Image11,
+    banner: Bn11,
     cast: 'Boris Karloff, Tim O\'Kelly, Peter Bogdanovich',
+    text: "Elderly horror-film star who, while making a personal appearance at a drive-in theater, confronts a psychotic Vietnam veteran who’s turned into a mass-murdering sniper."
   },
   {
     title: 'Picnic At Hanging Rock',
@@ -175,7 +187,9 @@ const movies = [
     genero: 'Drama/Terror',
     year: 1975,
     img: Image12,
+    banner: Bn12,
     cast: 'Rachel Roberts, Anne-Louise Lambert, Vivean Gray',
+    text: "San Valentín de 1900, las estudiantes de la Escuela Appleyard salen de excursión hacia Hanging Rock. Pero una serie de cosas extrañas sucede: las estudiantes y maestras caen dormidas, y tres muchachas y una de sus profesoras desaparecen en algún lugar entre las rocas."
   },
   {
     title: 'Do The Right Thing',
@@ -183,7 +197,9 @@ const movies = [
     genero: 'Comedia',
     year: 1989,
     img: Image13,
+    banner: Bn13,
     cast: 'Danny Aiello, Spike Lee, John Turturro',
+    text: "Mookie, un chico que trabaja como repartidor de pizzas, es testigo de las tensiones y las actitudes racistas de algunos de los habitantes de Bedford Stuyvesant, uno de los barrios más humildes de Brooklyn."
   },
   {
     title: 'Heat',
@@ -191,7 +207,9 @@ const movies = [
     genero: 'Accion',
     year: 1995,
     img: Image14,
+    banner: Bn14,
     cast: 'Al Pacino, Robert De Niro, Val Kilmer',
+    text: "Neil McCauley es un astuto delincuente que ha pasado muchos años en prisión y no tiene intención de volver allí jamás. Empieza a cometer una serie de robos a gran escala, desconcertando a la policía, hasta que enfrenta al detective Hannah, también poseedor de una mente brillante."
   },
   {
     title: 'The Assistant',
@@ -199,7 +217,9 @@ const movies = [
     genero: 'Drama',
     year: 2019,
     img: Image15,
+    banner: Bn15,
     cast: 'Julia Garner, Matthew Macfadyen, Makenzie Leigh',
+    text: "Jane, a recent college graduate and aspiring film producer, has landed her dream job as a junior assistant to an entertainment mogul. As she follows her daily routine, she grows aware of the abuse that colours every aspect of her work day—degradations against which Jane decides to take a stand."
   },
   {
     title: 'Bringing Up Baby',
