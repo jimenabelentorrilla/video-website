@@ -15,7 +15,7 @@ function MovieView( { movie } ) {
     <div>
       <Navbar expand="xxl" className="bg-body-tertiary">
           <Container className="justify-content-start">
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img
                 alt=""
                 src={Logo}

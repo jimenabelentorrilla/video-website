@@ -6,17 +6,17 @@ const ContainerFilms = () => {
   return (
     <>
     <div className="container-films">
-      <h2>Agregados recientemente</h2>
+      <h2>Desde clásicos de culto hasta obras maestras modernas.</h2>
         <div className='sarasa' >
           {Data.map((movie, index) => (
-            <Link to={movie.title}>
-              <div key={index}>
-                <img className='img-w ' src={movie.img} />
-              </div>
-              <div>
-                <p>{movie.title}</p>
+              <div className='card-movie'>
+                <div key={index}>
+                <Link to={movie.title}><img className='img-w ' src={movie.img} /></Link>
                 </div>
-            </Link>
+                <div>
+                <Link to={movie.title}><p className='mv-title'>{movie.title}</p></Link>
+                </div>
+              </div>
           ))}
         </div>
     </div>

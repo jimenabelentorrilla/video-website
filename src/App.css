@@ -11,8 +11,8 @@
 .sidebar-menu {
     background-color: #131313;
     width: 109px;
-    height: 3028px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     z-index: 9999;
 }
 
@@ -118,11 +118,11 @@
 /*Container films*/
 .container-films{
     background: #232323;
-    padding: 81px 109px;
+    padding: 81px 160px;
     display: flex;
     flex-direction: column;
     width: 1550px;
-    align-items: center;
+    align-items: flex-start;
 }
 .container-films h2{
     font-family: 'Work Sans';
@@ -146,6 +146,17 @@
     flex-wrap: wrap;
     gap:18.5px;
     width: 1080px;
+}
+.card-movie{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.mv-title{
+    color: #FFFFFF;
+    display: inline-block;
+
 }
 
 /*Footer*/
